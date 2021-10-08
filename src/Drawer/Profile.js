@@ -1,4 +1,4 @@
-import React ,{Component} from 'react'
+import React,{Component} from 'react'
 
 import {View, Text, StyleSheet} from 'react-native'
 
@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
     profileText:{
         fontSize:24,
         fontWeight:'bold',
-        color:'#ffffff'
+        color:'#fff'
     }
 })

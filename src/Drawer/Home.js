@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
     homeText:{
         fontSize:24,
         fontWeight:'bold',
-        color:'#ffffff'
+        color:'#fff'
     }
 })
