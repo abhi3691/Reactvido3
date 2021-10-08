@@ -6,7 +6,7 @@ export default class Home extends Component{
     render(){
         return(
             <View style ={styles.container}>
-                <Text style={styles.container}>Hi this is Home page</Text>
+                <Text style={styles.homeText}>Hi this is Home page</Text>
             </View>
             
         )
