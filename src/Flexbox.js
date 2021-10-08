@@ -52,7 +52,7 @@ export default class Flexbox extends Component{
                 </TouchableHighlight>   
                 <Text style={styles.buttonText} ></Text>
                 <TouchableHighlight style={styles.button}
-                underlayColor='#ffffff'
+                underlayColor='#fff'
                 onPress = {this.props.Navigation.Navigate('Drawer')}
                 >
                     <Text style={styles.buttonText}> Click Here</Text>
