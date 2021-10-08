@@ -49,14 +49,16 @@ export default class Flexbox extends Component{
                  <Text style = {styles.buttonText}>
                      UPDATE
                  </Text>    
-                </TouchableHighlight>    
+                </TouchableHighlight>   
+
                 <TouchableHighlight style={styles.button}
                 underlayColor='#ffffff'
                 onPress ={()=> this.props.navigation.navigate('Drawer')}
                 >
-                    <Text style={styles.buttonText}>CLICK HERE</Text>
+                    <Text style={styles.buttonText}> Click Here</Text>
 
-                </TouchableHighlight>
+
+                </TouchableHighlight> 
                 <FlexContent name= {this.props.route.params.Username}>
                     
                 </FlexContent>        

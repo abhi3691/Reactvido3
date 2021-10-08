@@ -25,10 +25,12 @@ function MyStack(){
             />
 
             <Stack.Screen
-            name='Drawer'
-            component ={MyDrawer}
+            name ='Drawer'
+            component={MyDrawer}
             options ={{headerShown:false}}
+            
             />
+
         </Stack.Navigator>
     )
 }
@@ -36,10 +38,9 @@ function MyStack(){
 function MyDrawer(){
     return(
         <Drawer.Navigator>
-            <Drawer.Screen 
-            name= 'Home'
-            component={Home}
-
+            <Drawer.Screen
+            name ='Home'
+            component ={Home}
             />
             <Drawer.Screen
             name ='Profile'
