@@ -23,13 +23,11 @@ function MyStack(){
             component= {Flexbox}
             options ={{headerShown:false}}
             />
-
             <Stack.Screen
-            name ='Drawer'
+            name='Drawer'
             component={MyDrawer}
-            options ={{headerShown:false}}
-            
             />
+
 
         </Stack.Navigator>
     )
@@ -38,17 +36,17 @@ function MyStack(){
 function MyDrawer(){
     return(
         <Drawer.Navigator>
-            <Drawer.Screen
-            name ='Home'
-            component ={Home}
-            />
-            <Drawer.Screen
-            name ='Profile'
-            component={Profile}
-            />
-
-        </Drawer.Navigator>
+        <Drawer.Screen
+        name='Home'
+        component={Home}
+        />
+        <Drawer.Screen
+        name='Profile'
+        component={Profile}
+        />
+    </Drawer.Navigator>
     )
+
 }
 
 export default function App(){
