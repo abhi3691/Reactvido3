@@ -26,6 +26,7 @@ function MyStack(){
             <Stack.Screen
             name='Drawer'
             component={MyDrawer}
+            options ={{headerShown:false}}
             />
 
 
