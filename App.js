@@ -6,6 +6,10 @@ import Login from './src/Login'
 import Flexbox from './src/Flexbox'
 import Home from './src/Drawer/Home'
 import Profile from './src/Drawer/Profile'
+import Settings from './src/Drawer/Settings'
+import AboutUs from './src/Drawer/AboutUs'
+import DrawerContent from './src/DrawerContent'
+
 
 const Stack  = createStackNavigator()
 const Drawer = createDrawerNavigator()
@@ -36,7 +40,8 @@ function MyStack(){
 
 function MyDrawer(){
     return(
-        <Drawer.Navigator>
+        <Drawer.Navigator
+        drawerContent={(props)=> <DrawerContent {...props}/>}>
         <Drawer.Screen
         name='Home'
         component={Home}
@@ -44,6 +49,14 @@ function MyDrawer(){
         <Drawer.Screen
         name='Profile'
         component={Profile}
+        />
+        <Drawer.Screen
+        name='AboutUs'
+        component={AboutUs}
+        />
+        <Drawer.Screen
+        name='Settings'
+        component={Settings}
         />
     </Drawer.Navigator>
     )
